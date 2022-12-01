@@ -124,21 +124,26 @@ margin-left: 20px;
 }
 .headline{
     display: flex;
-    height: 400px;
+    height: 375px;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+   
+    
 }
 .image img{
-left:60%;
-right: -96.24%;
-top: 0%;
-bottom: 20%;
-transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-align-items: flex-end;
-position: absolute;
-order: 4;
-width: 200px;
-
-
-
+  position: absolute;
+  left:44%;
+  width: 200px;
+  top: 150%;
+  padding:90px 10px 0px 10px;
+  transform: matrix(-0.96, 0.27, 0.27,0, 0);
 }
+
+
+
+
+
 
   
