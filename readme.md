@@ -28,7 +28,7 @@ README.md
  
 # 📖 MIRANJA TRACY <a name="about-project"></a>
  
-**MIRANJA TRACY HELLO MICROVERSE** is a webpage That i have created to test whether i grasp steps i learnt.
+**MIRANJA TRACY Portfolio** is a webpage That i have created to test whether i grasp steps i learnt.
  
 ## 🛠 Built With <a name="built-with"></a>
  
@@ -48,7 +48,7 @@ README.md
  
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [Live Demo Link](https://github.com/Tracy-miranja/hello-microverse)
+- [Live Demo Link](https://github.com/Tracy-miranja/portfolio)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
