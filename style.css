@@ -218,20 +218,19 @@ a {
   text-decoration: none;
   list-style: none;
   margin-left: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .list1 {
   box-sizing: border-box;
-  padding: 5px 10px 0px 1px;
+  padding: 5px 10px 0 1px;
   height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
   margin-right: 20px;
-  flex:1;
- justify-content: center;
+  flex: 1;
+  justify-content: center;
 }
-
 
 .LANGUAGE {
   width: 100%;
@@ -280,7 +279,7 @@ a {
   align-items: center;
   width: 124px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #f4f5f7;
   order: 3;
   justify-content: center;
@@ -378,7 +377,7 @@ a {
 
 .action-bar {
   display: flex;
-  background-color: #FF6B00;;
+  background-color: #ff6b00;
   width: 325px;
   height: 48px;
   margin-left: -10px;
@@ -387,7 +386,7 @@ a {
   font-weight: 400;
   color: #fff;
   justify-content: center;
-  color:white ;
+  color: white;
 }
 
 .projects2 {
