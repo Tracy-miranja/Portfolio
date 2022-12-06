@@ -596,3 +596,13 @@ a {
   order: 5;
   margin-top: 35%;
 }
+footer{
+  position: absolute;
+  background-color: #091e42;
+  display: flex;
+  order: 120;
+  margin-top: 100px;
+  flex-direction: column;
+  top: 325em;
+  width: 375px;
+}
