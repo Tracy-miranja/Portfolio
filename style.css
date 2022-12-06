@@ -606,3 +606,7 @@ footer{
   top: 325em;
   width: 375px;
 }
+form li {
+  border-bottom:1px solid #1c1a19;
+  margin-top: 20px;
+}
