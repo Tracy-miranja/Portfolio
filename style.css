@@ -614,3 +614,28 @@ footer {
   width: 375px;
   height: 400px;
 }
+
+.icons{
+  height: 100px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* footer icons  */
+.footer-social-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.bar{
+  width: 134px;
+  height: 5px;
+  background: #0D151E;
+  border-radius: 3px;
+}
