@@ -256,6 +256,12 @@ a {
   height: 20px;
 }
 
+form li {
+  border-bottom: 1px solid #1c1a19;
+  margin-top: 20px;
+  height: 20px;
+}
+
 .langu ul li {
   font-weight: 700;
   padding-bottom: 10%;
@@ -596,7 +602,8 @@ a {
   order: 5;
   margin-top: 35%;
 }
-footer{
+
+footer {
   position: absolute;
   background-color: #091e42;
   display: flex;
@@ -605,8 +612,5 @@ footer{
   flex-direction: column;
   top: 325em;
   width: 375px;
-}
-form li {
-  border-bottom:1px solid #1c1a19;
-  margin-top: 20px;
+  height: 400px;
 }
