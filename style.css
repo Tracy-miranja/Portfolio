@@ -108,6 +108,15 @@ a {
   margin-top: 10%;
 }
 
+footer p {
+  margin-top: 100px;
+  font-size: 22px;
+  padding: 2px;
+  font-weight: 700;
+  margin-left: 18px;
+  color: #172b4d;
+}
+
 .banner p {
   order: 2;
   font-family: 'Poppins', sans-serif;
@@ -260,22 +269,24 @@ form li {
   margin-top: 20px;
   height: 20px;
 }
-input{
+
+input {
   align-items: center;
   justify-content: center;
   margin-left: 25%;
   margin-top: 15px;
   height: 22px;
-  
 }
-textarea{
+
+textarea {
   margin-left: 5%;
   height: 114px;
   width: 327px;
   padding-top: 45px;
   margin-top: 15px;
 }
-.button{
+
+.button {
   margin-top: 49%;
   display: flex;
   flex-direction: row;
@@ -284,20 +295,21 @@ textarea{
   gap: 10px;
   width: 131px;
   height: 40px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-left: 25%;
   flex: none;
   order: 3;
   flex-grow: 0;
 }
-button{
-  background-color: #FF6B00;
+
+button {
+  background-color: #ff6b00;
   align-items: center;
   margin-left: 11%;
   color: #fff;
   font-weight: 400;
   font-size: 17px;
-  width:117px;
+  width: 117px;
 }
 
 .langu ul li {
@@ -671,7 +683,7 @@ button{
 
 footer {
   position: absolute;
-  background-color:white;
+  background-color: white;
   display: flex;
   order: 120;
   margin-top: 100px;
@@ -679,14 +691,6 @@ footer {
   top: 325em;
   width: 375px;
   height: 400px;
-}
-footer p {
-  margin-top: 100px;
-  font-size: 22px;
-  padding: 2px;
-  font-weight: 700;
-  margin-left: 18px;
-  color: #172B4D;
 }
 
 .icons {
@@ -706,7 +710,7 @@ footer p {
   justify-content: space-between;
   align-items: center;
   width: 50%;
-  color: #505F79;
+  color: #505f79;
   margin-top: 5px;
 }
 
