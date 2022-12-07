@@ -256,6 +256,12 @@ a {
   height: 20px;
 }
 
+form li {
+  border-bottom: 1px solid #1c1a19;
+  margin-top: 20px;
+  height: 20px;
+}
+
 .langu ul li {
   font-weight: 700;
   padding-bottom: 10%;
@@ -595,4 +601,16 @@ a {
   background-color: #fff;
   order: 5;
   margin-top: 35%;
+}
+
+footer {
+  position: absolute;
+  background-color: #091e42;
+  display: flex;
+  order: 120;
+  margin-top: 100px;
+  flex-direction: column;
+  top: 325em;
+  width: 375px;
+  height: 400px;
 }
