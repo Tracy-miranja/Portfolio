@@ -257,9 +257,47 @@ a {
 }
 
 form li {
-  border-bottom: 1px solid #1c1a19;
   margin-top: 20px;
   height: 20px;
+}
+input{
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: 15px;
+  height: 22px;
+  
+}
+textarea{
+  margin-left: 5%;
+  height: 114px;
+  width: 327px;
+  padding-top: 45px;
+  margin-top: 15px;
+}
+.button{
+  margin-top: 49%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 40px;
+  background: #FF6B00;
+  margin-left: 25%;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+button{
+  background-color: #FF6B00;
+  align-items: center;
+  margin-left: 11%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  width:117px;
 }
 
 .langu ul li {
@@ -633,7 +671,7 @@ form li {
 
 footer {
   position: absolute;
-  background-color: #091e42;
+  background-color:white;
   display: flex;
   order: 120;
   margin-top: 100px;
@@ -641,6 +679,14 @@ footer {
   top: 325em;
   width: 375px;
   height: 400px;
+}
+footer p {
+  margin-top: 100px;
+  font-size: 22px;
+  padding: 2px;
+  font-weight: 700;
+  margin-left: 18px;
+  color: #172B4D;
 }
 
 .icons {
@@ -651,6 +697,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 50px;
 }
 
 /* footer icons  */
@@ -659,6 +706,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  color: #505F79;
+  margin-top: 5px;
 }
 
 .bar {
