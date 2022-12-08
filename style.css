@@ -47,7 +47,7 @@ a {
 }
 
 .bar2 h1 {
-  font: "Roboto", sans-serif;
+  font: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -75,7 +75,7 @@ a {
   background-color: #1c1a19;
   flex-direction: column;
   padding-top: 60px;
-  background-image: url("/images/first.svg");
+  background-image: url('/images/first.svg');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 42%;
@@ -84,7 +84,7 @@ a {
 .banner h1 {
   width: 327px;
   height: 75px;
-  font-family: "arial", sans-serif;
+  font-family: 'arial', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -95,7 +95,7 @@ a {
 
 .banner h2 {
   width: 327px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -108,9 +108,24 @@ a {
   margin-top: 10%;
 }
 
+footer p {
+  margin-top: 100px;
+  font-size: 32px;
+  padding: 2px;
+  font-weight: 700;
+  margin-left: 18px;
+  color: #172b4d;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-style: normal;
+}
+
 .banner p {
   order: 2;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -167,7 +182,7 @@ a {
 
 .grid-item1 h1 {
   width: 330px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 570;
   font-size: 36px;
@@ -183,7 +198,7 @@ a {
 
 .grid-item1 h2 {
   width: 327px;
-  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -197,7 +212,7 @@ a {
 
 .grid-item1 p {
   width: 337px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -254,6 +269,68 @@ a {
 .About img {
   width: 20px;
   height: 20px;
+}
+
+form li {
+  margin-top: 25px;
+  height: 20px;
+}
+
+input {
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 19px;
+  height: 29px;
+  border: none;
+  color: #979493;
+  font-size: 15px;
+  line-height: 10px;
+  font-family: 'Inter'Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+
+textarea {
+  margin-left: 5%;
+  height: 114px;
+  width: 327px;
+  padding-top: 45px;
+  margin-top: 15px;
+  border: none;
+  font-size: 15px;
+  background: #fbf8f7;
+  font-weight: 400;
+  color: #3c3a39;
+  font-family: "inter" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+  margin-top: 49%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 141px;
+  height: 60px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: #ff6b00;
+  margin-left: 24%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  border: none;
+  font-family: "inter" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 .langu ul li {
@@ -320,7 +397,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -329,7 +406,7 @@ a {
 .grid-item2 h1 {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -344,7 +421,7 @@ a {
 .grid-item2 p {
   width: 295px;
   height: 87px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -392,7 +469,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -402,7 +479,7 @@ a {
 .projects3 h1 {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -417,7 +494,15 @@ a {
 .grid-item3 h1 {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    'Crete Round',
+    'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -432,7 +517,12 @@ a {
 .grid-item3 p {
   width: 295px;
   height: 87px;
-  font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:
+    'Inter',
+    'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -446,7 +536,7 @@ a {
 .grid-item4 h1 {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -461,7 +551,7 @@ a {
 .grid-item4 p {
   width: 295px;
   height: 87px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -476,7 +566,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -487,7 +577,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -498,7 +588,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -509,7 +599,7 @@ a {
   width: calc(327px - 25px);
   height: 380px;
   background-color: white;
-  background-image: url("./images/bg.png");
+  background-image: url('./images/bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
@@ -534,7 +624,7 @@ a {
   height: 580px;
   background-color: #1c1a19;
   flex-direction: column;
-  background-image: url("./images/Group.svg");
+  background-image: url('./images/Group.svg');
   padding-top: 25%;
   background-position: 100% 69%;
   background-repeat: no-repeat;
@@ -545,7 +635,11 @@ a {
 .aboutme h1 {
   width: 327px;
   height: 30px;
-  font-family: "Crete Round" Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family:
+    'Crete Round' Impact,
+    Haettenschweiler,
+    'Arial Narrow Bold',
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 68px;
@@ -556,10 +650,22 @@ a {
   margin-top: 15%;
   order: 0;
   flex-grow: 0;
+  margin-left: 10%;
 }
 
 .aboutme p {
-  font-family: "Inter" system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    'Inter' system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -596,3 +702,83 @@ a {
   order: 5;
   margin-top: 35%;
 }
+
+footer {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  order: 120;
+  margin-top: 100px;
+  flex-direction: column;
+  top: 325em;
+  width: 375px;
+  height: 400px;
+}
+
+.icons {
+  height: 100px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* footer icons  */
+.footer-social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  color: #505f79;
+  margin-top: 5px;
+}
+
+.bar {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 3px;
+}
+
+/* @media-------
+@media only screen and (max-width:400px) {
+    .header{
+        background-color: brown;
+    }
+
+  }
+  @media only screen and (min-width:401px) and (max-width:900px){
+    .header{
+        background-color: aqua;
+    }
+    .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+
+  }
+  @media only screen and (min-width:961px) {
+    .header{
+        background-color: blue;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .feature-1,
+      .feature-2,
+      .feature-3 {
+        width: 33.3%;
+      }
+      .header {
+        height: 400px;
+      }
+
+  }
+  */
