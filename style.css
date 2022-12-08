@@ -119,6 +119,8 @@ footer p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
 }
 
 .banner p {
@@ -282,8 +284,10 @@ input {
   height: 29px;
   border: none;
   color: #979493;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 10px;
+  font-family: 'Inter'Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal
 }
 
 textarea {
@@ -293,7 +297,10 @@ textarea {
   padding-top: 45px;
   margin-top: 15px;
   border: none;
-  font-size: 22px;
+  font-size: 15px;
+  background: #FBF8F7;
+  font-weight: 400;
+  color: #3C3A39;
 }
 
 button {
@@ -641,6 +648,7 @@ button:hover {
   margin-top: 15%;
   order: 0;
   flex-grow: 0;
+  margin-left: 10%;
 }
 
 .aboutme p {
@@ -732,3 +740,41 @@ footer {
   background: #0d151e;
   border-radius: 3px;
 }
+/*@media-------*/
+@media only screen and (max-width:400px) {
+    .header{
+        background-color: brown;
+    }
+    
+  }
+  @media only screen and (min-width:401px) and (max-width:900px){
+    .header{
+        background-color: aqua;
+    }
+    .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+    
+  }
+  @media only screen and (min-width:961px) {
+    .header{
+        background-color: blue;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .feature-1,
+      .feature-2,
+      .feature-3 {
+        width: 33.3%;
+      }
+      .header {
+        height: 400px;
+      }
+    
+  }
