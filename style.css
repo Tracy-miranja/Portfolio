@@ -119,7 +119,7 @@ footer p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-style: normal;
 }
 
@@ -287,7 +287,7 @@ input {
   font-size: 15px;
   line-height: 10px;
   font-family: 'Inter'Verdana, Geneva, Tahoma, sans-serif;
-font-style: normal
+  font-style: normal;
 }
 
 textarea {
@@ -298,9 +298,10 @@ textarea {
   margin-top: 15px;
   border: none;
   font-size: 15px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   font-weight: 400;
-  color: #3C3A39;
+  color: #3c3a39;
+  font-family: "inter" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 button {
@@ -324,6 +325,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   border: none;
+  font-family: "inter" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 button:hover {
@@ -740,3 +742,43 @@ footer {
   background: #0d151e;
   border-radius: 3px;
 }
+
+/* @media-------
+@media only screen and (max-width:400px) {
+    .header{
+        background-color: brown;
+    }
+
+  }
+  @media only screen and (min-width:401px) and (max-width:900px){
+    .header{
+        background-color: aqua;
+    }
+    .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+
+  }
+  @media only screen and (min-width:961px) {
+    .header{
+        background-color: blue;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .feature-1,
+      .feature-2,
+      .feature-3 {
+        width: 33.3%;
+      }
+      .header {
+        height: 400px;
+      }
+
+  }
+  */
