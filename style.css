@@ -115,7 +115,7 @@ footer p {
   font-weight: 700;
   margin-left: 18px;
   color: #172b4d;
-  flex:none;
+  flex: none;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -272,7 +272,6 @@ footer p {
 form li {
   margin-top: 25px;
   height: 20px;
-  
 }
 
 input {
@@ -281,12 +280,10 @@ input {
   margin-left: 10%;
   margin-top: 19px;
   height: 29px;
-  border:none;
+  border: none;
   color: #979493;
   font-size: 25px;
   line-height: 10px;
-  
-
 }
 
 textarea {
@@ -309,26 +306,20 @@ button {
   width: 141px;
   height: 60px;
   background: #ff6b00;
-  margin-left: 50%;
   flex: none;
   order: 3;
   flex-grow: 0;
   text-align: center;
   justify-content: center;
-}
-
-button {
   background-color: #ff6b00;
-  align-items: center;
   margin-left: 24%;
   color: #fff;
   font-weight: 500;
   font-size: 17px;
- 
   border: none;
 }
 
-button:hover{
+button:hover {
   background-color: black;
   color: white;
 }
