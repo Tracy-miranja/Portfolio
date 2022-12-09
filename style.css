@@ -4,6 +4,35 @@ body {
   padding: 0;
   background-image: linear-gradient(red pink);
 }
+.list-nav {
+  display: flex;
+  flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 255px;
+height: 40px;
+right: 294px;
+top: calc(50% - 74px/2);
+color: #FFFFFF;
+justify-content: space-between;
+font-weight: 600;
+font-size: 15px;
+transition: all 0.5s ease-out;
+
+}
+.list-nav a{
+  color: #f4f5f7;
+  display: flex;
+  justify-content: space-between;
+}
+.list-nav a:hover,
+.list-nav a:focus {
+  border: 1px solid #fff;
+  color:red;
+
+}
 
 ul {
   list-style-type: none;
@@ -105,7 +134,7 @@ a {
   padding-left: 20px;
   order: 1;
   flex-grow: 0;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 footer p {
@@ -694,6 +723,7 @@ button:hover {
 
 .resume:hover {
   background-color: #fff;
+  color: #1c1a19;
 }
 
 .About hr {
@@ -743,42 +773,153 @@ footer {
   border-radius: 3px;
 }
 
-/* @media-------
-@media only screen and (max-width:400px) {
+/* @media-------*/
+@media only screen and (max-width:414px) {
     .header{
-        background-color: brown;
+        background-color: #3c3a39;
+    }
+    .list-nav{
+     display: inline;
     }
 
   }
-  @media only screen and (min-width:401px) and (max-width:900px){
+  @media only screen and (min-width:415px) and (max-width:768px){
     .header{
-        background-color: aqua;
-    }
-    .sign-up,
-  .feature-1,
-  .feature-2,
-  .feature-3 {
-    width: 50%;
-  }
-
-  }
-  @media only screen and (min-width:961px) {
-    .header{
-        background-color: blue;
+        background-color: #3c3a39;
         width: 100%;
     }
-    .header {
-        width: 100%;
-        margin: 0 auto;
-      }
-      .feature-1,
-      .feature-2,
-      .feature-3 {
-        width: 33.3%;
-      }
-      .header {
-        height: 400px;
-      }
+    .list-nav{
+      display: none;
+    }
+    .banner{
+      width: 100%;
+      display: grid;
+      background: #1C1A19;
+      padding-top: 50px;
+      background-image: url(./images/Illustration-header@2x.png);
+      background-position: right center;
+      background-repeat: no-repeat;
+     
+      background-size: 52%;
+      height: 500px;
+    }
+    .banner h1 {
+      margin-top:2%;
+      margin-left: 6%;
+  }
+  .banner h2 {
+    margin-top:-2%;
+    margin-left: 6%;
+}
+.banner p {
+  margin-top:-13%;
+  margin-left: 8%;
+}
+.social-links{
+  flex-direction: column;
+  margin-top: -30%;
+  margin-left: -0.4%;
+  justify-content: space-between;
+  height: 60px;
+}
 
   }
-  */
+  @media only screen and (min-width:769px) {
+    .header{
+        position: absolute;
+        width: 1440px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        background: #3E3C3C;
+    }
+    nav,
+    .bar1{
+      display: none;
+    }
+    .bar2 h1{
+      width: 202px;
+      height: 20px;
+      font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-left: 7%;
+    }
+    .container{
+       width: 100%;
+    }
+    .banner{
+      display: grid;
+      width: 1440px;
+      height: 870px;
+      background: #1C1A19;
+      padding-top: 60px;
+      background-image: url(./images/Illustration-header@2x.png);
+      background-position: right center;
+      background-repeat: no-repeat;
+      background-size: 49%;
+    }
+    .banner h1{
+      width: 566px;
+font-family: 'Crete Round'sans-serif ;
+font-style: normal;
+font-weight: 600;
+font-size: 82px;
+color: #F55800;
+flex: none;
+text-align:left;
+margin-top: 10%;
+display: grid;
+margin-left: 9%;
+    }
+    .banner h2{
+      width: 566px;
+      text-align: center;
+      display: grid;
+      flex: none;
+      margin-top: -3%;
+    }
+    .banner p{
+      width: 566px;
+      height: auto;
+      font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #F4F5F7;
+flex: none;
+order: 2;
+display: grid;
+flex-grow: 0;
+margin-top: -20%;
+text-align: left;
+margin-left: 11%;
+    }
+    .social-links{
+      flex-direction: column;
+      margin-top: -32%;
+      padding: 10px;
+      height: 180px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .grid-container{
+      width: 1440px;
+      display: row;
+    }
+
+
+    
+    
+  }
+  
