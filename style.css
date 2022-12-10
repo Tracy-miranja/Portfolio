@@ -413,7 +413,7 @@ button:hover {
   justify-content: center;
   font-size: 22px;
   font-weight: 700;
-  flex: 1;
+  /*flex: 1;*/
 }
 
 .project:hover {
@@ -447,7 +447,6 @@ button:hover {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
-  z-index: 1;
 }
 
 .grid-item2 h1 {
@@ -1084,11 +1083,6 @@ footer {
     height: 3px;
     border-radius: 2px;
     background: #212121;
-    /*flex: none;*/
-    /*order: 1;*/
-    /*flex-grow: 0;*/
-    /*margin-top: -4%;*/
-    /*margin-right: 10%;*/
   }
 
   .recent-works {
@@ -1100,62 +1094,79 @@ footer {
     width: 100%;
   }
 
-  .multi-story img {
-    width: 684px;
-    height: 448px;
-    background: url(image_processing20200716-21735-f07s4k.png);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-top: 10%;
-  }
-
   .multi-story {
     flex: 0.5;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    border: 2px solid rebeccapurple;
+    column-gap: 48px;
+    border: 5px solid blue;
   }
 
   .post {
-    margin-top: 8%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    border: 3px solid green;
+  }
+
+  .list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-wrapper {
+    border: 2px solid red;
+    height: 100%;
+    width: 50%;
+  }
+
+  .multi-story img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .multi-story h2 {
-    width: 448px;
-    height: 48px;
     font-family: 'Crete Round' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
-    align-items: center;
     color: #091e42;
   }
 
-  .multi-story p {
-    width: 448px;
-    height: 140px;
+  .post p {
     font-family: 'Inter' 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    display: flex;
+    width: 100%;
+  }
+
+  .project {
+    height: 40px;
+    width: 124px;
   }
 
   .my-projects {
     width: 100%;
-    border: 2px solid red;
+    border: 5px solid red;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* justify-content: space-between; */
+    justify-content: center;
   }
-}
+
+  .projects-wrapper {
+    display: grid;
+    border: 2px solid orange;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
