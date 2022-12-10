@@ -1,17 +1,9 @@
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*html,
+html,
 body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(red pink);
-}*/
+}
 
 ul {
   list-style-type: none;
@@ -231,6 +223,7 @@ footer p {
 }
 
 .grid-item1 {
+  box-sizing: border-box;
   width: calc(340px - 10px);
   height: 750px;
   background-color: white;
@@ -238,24 +231,24 @@ footer p {
   margin-top: 2%;
 }
 
-grid .grid-item1 img {
+.grid-item1 img {
   width: 310px;
   margin-top: 16%;
 }
 
 .grid-item1 h1 {
-  /*width: 330px;*/
+  width: 330px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 570;
   font-size: 36px;
   line-height: 52px;
-  /*display: flex;*/
-  /*align-items: center;*/
+  display: flex;
+  align-items: center;
   color: #1c1a19;
   flex: none;
   order: 0;
-  /*margin-top: 18%;*/
+  margin-top: 18%;
   flex-grow: 0;
 }
 
@@ -413,7 +406,7 @@ button:hover {
   justify-content: center;
   font-size: 22px;
   font-weight: 700;
-  /*flex: 1;*/
+  flex: 1;
 }
 
 .project:hover {
@@ -447,6 +440,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
+  z-index: 1;
 }
 
 .grid-item2 h1 {
@@ -955,12 +949,10 @@ footer {
   }
 }
 
-/* start desktop styles */
-
 @media only screen and (min-width: 768px) {
   .header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 72px;
     left: 0;
     top: 0;
@@ -992,19 +984,18 @@ footer {
 
   .container {
     width: 100%;
-    border: 10px solid green;
   }
 
   .banner {
     display: grid;
-    width: 100%;
+    width: 1440px;
     height: 870px;
     background: #1c1a19;
-    padding-top: 80px;
+    padding-top: 60px;
     background-image: url(./images/Illustration-header@2x.png);
-    background-position: right bottom;
+    background-position: right center;
     background-repeat: no-repeat;
-    background-size: 39%;
+    background-size: 49%;
   }
 
   .banner h1 {
@@ -1057,116 +1048,86 @@ footer {
   }
 
   .grid-container {
-    border: 5px solid red;
-    width: 100%;
-    padding: 8rem 9rem;
+    width: 1440px;
+    display: row;
   }
 
   .grid-item1 {
-    width: 100%;
-    display: flex;
-    border: 4px solid green;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    width: 1440px;
   }
 
   .grid-item1 h1 {
+    width: 345px;
+    height: 52px;
     font-family: 'Crete Round' 'Times New Roman', Times, serif;
+    margin-left: 8%;
     font-size: 40px;
+    margin-top: 10%;
   }
 
-  #line {
-    width: 80%;
-    flex: 1;
-    margin-left: 32px;
-    height: 3px;
-    border-radius: 2px;
-    background: #212121;
-  }
-
-  .recent-works {
-    flex: 0.5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
-    width: 100%;
-  }
-
-  .multi-story {
-    flex: 0.5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    column-gap: 48px;
-    border: 5px solid blue;
-  }
-
-  .post {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 1rem;
-    border: 3px solid green;
-  }
-
-  .list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-wrapper {
-    border: 2px solid red;
-    height: 100%;
-    width: 50%;
+  hr {
+    width: 794px;
+    height: 0;
+    border: 1px solid #212121;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -4%;
+    margin-right: 10%;
   }
 
   .multi-story img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    width: 684px;
+    height: 448px;
+    background: url(image_processing20200716-21735-f07s4k.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10%;
+  }
+
+  .multi-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .post {
+    margin-top: 8%;
   }
 
   .multi-story h2 {
+    width: 448px;
+    height: 48px;
     font-family: 'Crete Round' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+    display: flex;
+    align-items: center;
     color: #091e42;
   }
 
-  .post p {
+  .multi-story p {
+    width: 448px;
+    height: 140px;
     font-family: 'Inter' 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
-    width: 100%;
-  }
-
-  .project {
-    height: 40px;
-    width: 124px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
   }
 
   .my-projects {
-    width: 100%;
-    border: 5px solid red;
+    width: 1440px;
     display: grid;
-    justify-content: center;
+    grid-template: 3fr 2fr;
+    justify-content: space-between;
   }
-
-  .projects-wrapper {
-    display: grid;
-    border: 2px solid orange;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 32px;
-  }
+}
