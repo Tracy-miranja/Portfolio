@@ -136,7 +136,7 @@ a {
   background-image: url('/images/first.svg');
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 42%;
+  background-size: 40%;
 }
 
 .banner h1 {
@@ -187,11 +187,12 @@ footer p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 22px;
   color: white;
   flex: none;
   width: 327px;
-  align-self: center;
+  margin-left: 5%;
+  margin-top: -2%;
 }
 
 .social-links {
@@ -884,6 +885,19 @@ footer {
 @media only screen and (max-width: 414px) {
   .header {
     background-color: #3c3a39;
+    width: 100%;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+
+  .About {
+    width: 100%;
   }
 
   .list-nav {
@@ -1033,7 +1047,7 @@ footer {
     order: 2;
     display: grid;
     flex-grow: 0;
-    margin-top: -20%;
+    margin-top: -10%;
     text-align: left;
     margin-left: 11%;
   }
@@ -1126,8 +1140,282 @@ footer {
 
   .my-projects {
     width: 1440px;
-    display: grid;
-    grid-template: 3fr 2fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 45px 65px 45px 65px;
+  }
+
+  .grid-item2 {
+    width: 369px;
+    height: 435px;
+    margin-left: 65px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url(./images/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .grid-item2 p,
+  h2 {
+    display: none;
+  }
+
+  .projects2 {
+    width: 369px;
+    height: 435px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url(./images/grid\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .projects2 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 35%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .grid-item3 {
+    width: 369px;
+    height: 435px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url(/images/Img\ Placeholder\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .grid-item3 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 33%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .projects3 {
+    width: 369px;
+    height: 435px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./images/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .projects3 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 30%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .grid-item4 {
+    width: 369px;
+    height: 435px;
+    margin-left: 50px;
+    right: 0px;
+    bottom: 0px;
+    background: url(./images/grid\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .grid-item4 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 25%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .projects4 {
+    width: 369px;
+    height: 435px;
+    margin-top: -1%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url(/images/Img\ Placeholder\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .projects4 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 35%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .action-bar {
+    display: none;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Inter' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 8%;
+
+  }
+
+  .About {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 1100px;
+    left: 0px;
+    top: 2900px;
+
+
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 1100px;
+    background: url(./images/illustration-about\ me@2x.png);
+    background-position: 100% 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 39%;
+  }
+
+  .part1 {
+    display: flex;
+    flex-direction: column;
+    width: 566px;
+    height: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -22%;
+    margin-left: 10%;
+  }
+
+  .part1 h1 {
+    font-size: 72px;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .part1 p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    line-height: 32px;
+    font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .aboutme hr {
+    margin-top: -10%;
+    border: 1px solid #FFFFFF;
+  }
+
+  .LANGUAGE {
+    display: flex;
+    flex-direction: row;
+    margin-top: -32%;
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+  }
+
+  .heading {
+    font-size: 32px;
+    font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  footer {
+    display: flex;
+    margin-top: -50%;
+    flex-direction: row;
     justify-content: space-between;
   }
+
+  .form-p {
+    width: 720px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
 }
