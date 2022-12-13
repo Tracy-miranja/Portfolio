@@ -905,10 +905,14 @@ footer {
   }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 768px) {
+@media only screen and (min-width: 415px) and (max-width: 771px) {
   .header {
     background-color: #3c3a39;
     width: 100%;
+  }
+
+  .list-nav {
+    display: none;
   }
 
   .multi-story h2 {
@@ -935,7 +939,7 @@ footer {
     background-image: url(./images/Illustration-header@2x.png);
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 52%;
+    background-size: 50%;
     height: 500px;
   }
 
@@ -964,6 +968,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .body {
+    display: flex;
+    align-content: center;
+  }
+
   .header {
     position: absolute;
     width: 1440px;
@@ -1014,7 +1023,7 @@ footer {
 
   .banner h1 {
     width: 566px;
-    font-family: 'Crete Round' sans-serif;
+    font-family: 'Crete Round', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 82px;
@@ -1024,6 +1033,11 @@ footer {
     margin-top: 10%;
     display: grid;
     margin-left: 9%;
+  }
+
+  .grid-item2 p,
+  h2 {
+    display: none;
   }
 
   .banner h2 {
@@ -1064,6 +1078,7 @@ footer {
   .grid-container {
     width: 1440px;
     display: row;
+    justify-content: center;
   }
 
   .grid-item1 {
@@ -1142,8 +1157,7 @@ footer {
     width: 1440px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border: 2px solid red;
+    justify-content: space-evenly;
     margin-top: 5%;
     align-items: center;
     flex-wrap: wrap;
@@ -1153,27 +1167,22 @@ footer {
   .grid-item2 {
     width: 369px;
     height: 435px;
-    margin-left: 65px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    margin-left: 60px;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: url(./images/Mask\ Group.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
-  .grid-item2 p,
-  h2 {
-    display: none;
-  }
-
   .projects2 {
     width: 369px;
     height: 435px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: url(./images/grid\ 2.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1187,7 +1196,7 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 35%;
     flex: none;
     order: 0;
@@ -1197,11 +1206,11 @@ footer {
   .grid-item3 {
     width: 369px;
     height: 435px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: url(/images/Img\ Placeholder\ \(2\).png);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(/images/Img\ Placeholder\ \(2\) .png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1214,7 +1223,7 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 33%;
     flex: none;
     order: 0;
@@ -1224,10 +1233,10 @@ footer {
   .projects3 {
     width: 369px;
     height: 435px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    margin-left: 49px;
+    right: 0;
+    margin-top: 5%;
+    bottom: 0;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./images/Mask\ Group.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1241,7 +1250,7 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 30%;
     flex: none;
     order: 0;
@@ -1251,9 +1260,10 @@ footer {
   .grid-item4 {
     width: 369px;
     height: 435px;
-    margin-left: 50px;
-    right: 0px;
-    bottom: 0px;
+    margin-left: 20px;
+    right: 0;
+    bottom: 0;
+    margin-top: 5%;
     background: url(./images/grid\ 2.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1267,7 +1277,7 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 25%;
     flex: none;
     order: 0;
@@ -1277,12 +1287,12 @@ footer {
   .projects4 {
     width: 369px;
     height: 435px;
-    margin-top: -1%;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: url(/images/Img\ Placeholder\ \(2\).png);
+    margin-top: 5%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(/images/Img\ Placeholder\ \(2\) .png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1295,7 +1305,7 @@ footer {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 35%;
     flex: none;
     order: 0;
@@ -1320,7 +1330,6 @@ footer {
     font-size: 15px;
     line-height: 20px;
     margin-top: 8%;
-
   }
 
   .About {
@@ -1328,10 +1337,8 @@ footer {
     flex-direction: row;
     width: 1440px;
     height: 1100px;
-    left: 0px;
+    left: 0;
     top: 2900px;
-
-
   }
 
   .aboutme {
@@ -1342,7 +1349,6 @@ footer {
     height: 1100px;
     background: url(./images/illustration-about\ me@2x.png);
     background-position: 100% 10%;
-    background-size: contain;
     background-repeat: no-repeat;
     background-size: 39%;
   }
@@ -1352,12 +1358,12 @@ footer {
     flex-direction: column;
     width: 566px;
     height: 148px;
-    font-family: 'Inter';
+    font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1381,13 +1387,13 @@ footer {
 
   .aboutme hr {
     margin-top: -10%;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fff;
   }
 
   .LANGUAGE {
     display: flex;
     flex-direction: row;
-    margin-top: -32%;
+    margin-top: -30%;
     justify-content: space-evenly;
     font-size: 22px;
     font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
@@ -1403,19 +1409,75 @@ footer {
   }
 
   footer {
+    width: 1440px;
     display: flex;
     margin-top: -50%;
-    flex-direction: row;
     justify-content: space-between;
   }
 
-  .form-p {
+  .footer-p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-p p {
     width: 720px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 35%;
+    color: #262626;
+    margin-top: 5%;
+    font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .form {
-    width: 100%;
+    width: 720px;
   }
 
+  .icons {
+    margin-left: 8%;
+    margin-top: 5%;
+    order: 2;
+    display: flex;
+  }
 
+  .button {
+    margin-top: -30%;
+    margin-left: -25%;
+  }
+
+  .footer-social-links {
+    display: flex;
+    width: 10%;
+  }
+
+  .list5 {
+    height: 35px;
+    width: auto;
+  }
+
+  .list5:hover {
+    background-color: orangered;
+    color: white;
+  }
+
+  .lst {
+    display: none;
+  }
+
+  .list5 a {
+    margin: 5px;
+  }
+
+  .actn-bar {
+    display: flex;
+    width: 390px;
+    margin-top: 35%;
+    justify-content: first baseline;
+  }
+
+  .actn-bar:hover {
+    background-color: #f4f5f7;
+    color: #0d151e;
+  }
 }
