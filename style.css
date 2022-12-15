@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(red pink);
+  overflow-x: hidden;
 }
 
 ul {
@@ -905,9 +906,9 @@ footer {
   }
 }
 
-/*
 
-@media only screen and (min-width: 415px) and (max-width: 771px) {
+
+@media only screen (min-width: 768px) and (max-width: 1440px) {
   .header {
     background-color: #3c3a39;
     width: 100%;
@@ -946,17 +947,17 @@ footer {
   }
 
   .banner h1 {
-    margin-top: 2%;
+    margin-top: 10%;
     margin-left: 6%;
   }
 
   .banner h2 {
     margin-top: -2%;
-    margin-left: 6%;
+    margin-left: -20%;
   }
 
   .banner p {
-    margin-top: -13%;
+    margin-top: -3%;
     margin-left: 8%;
   }
 
@@ -967,17 +968,23 @@ footer {
     justify-content: space-between;
     height: 60px;
   }
+
+  .aboutme hr {
+    margin-top: 30%;
+    border: 1px solid #fff;
+  }
+
+  .LANGUAGE {
+    margin-top: 50%;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  .body {
-    display: flex;
-    align-content: center;
-  }
+
+@media only screen and (min-width: 1440px) {
 
   .header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 72px;
     left: 0;
     top: 0;
@@ -1009,22 +1016,25 @@ footer {
 
   .container {
     width: 100%;
+
   }
 
   .banner {
     display: grid;
-    width: 1440px;
+    flex-direction: row;
+    width: 100%;
     height: 870px;
     background: #1c1a19;
     padding-top: 60px;
     background-image: url(./images/Illustration-header@2x.png);
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 49%;
+    background-size: 35%;
   }
 
+
   .banner h1 {
-    width: 566px;
+    width: 70%;
     font-family: 'Crete Round', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1032,7 +1042,7 @@ footer {
     color: #f55800;
     flex: none;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 8%;
     display: grid;
     margin-left: 9%;
   }
@@ -1043,15 +1053,16 @@ footer {
   }
 
   .banner h2 {
-    width: 566px;
+    width: 70%;
     text-align: center;
     display: grid;
     flex: none;
-    margin-top: -3%;
+    margin-top: -2%;
+    margin-left: -19%;
   }
 
   .banner p {
-    width: 566px;
+    width: 70%;
     height: auto;
     font-family: 'Inter' 'Times New Roman', Times, serif;
     font-style: normal;
@@ -1060,25 +1071,28 @@ footer {
     line-height: 32px;
     color: #f4f5f7;
     flex: none;
-    order: 2;
+    order: 5;
     display: grid;
     flex-grow: 0;
-    margin-top: -10%;
+    margin-top: -14%;
     text-align: left;
-    margin-left: 11%;
+    margin-left: 10%;
   }
 
   .social-links {
+    width: 10%;
     flex-direction: column;
-    margin-top: -32%;
-    padding: 10px;
-    height: 180px;
+    height: 90%;
     display: flex;
     justify-content: space-around;
+    margin-top: -15%;
+
   }
 
   .grid-container {
-    width: 1440px;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
     display: row;
     justify-content: center;
   }
@@ -1156,35 +1170,27 @@ footer {
   }
 
   .my-projects {
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 5%;
+    padding: 10px;
+    gap: 19px;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 45px 65px 45px 65px;
+    justify-content: center;
   }
 
   .grid-item2 {
-    width: 369px;
-    height: 435px;
-    margin-left: 60px;
-    right: 0;
-    top: 0;
-    bottom: 0;
+
+    height: 100%;
     background: url(./images/Mask\ Group.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .projects2 {
-    width: 369px;
-    height: 435px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+
+    height: 100%;
+
     background: url(./images/grid\ 2.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1192,88 +1198,51 @@ footer {
 
   .projects2 h1 {
     width: 337px;
-    height: 81px;
     font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-    margin-top: 35%;
+    margin-top: 25%;
     flex: none;
     order: 0;
     flex-grow: 0;
+    flex-wrap: wrap;
   }
 
   .grid-item3 {
-    width: 369px;
-    height: 435px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: url(/images/Img\ Placeholder\ \(2\) .png);
+
+    height: auto;
+    margin-top: -5%;
+    background: url(/images/Img\ Placeholder\ \(2\).png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .grid-item3 h1 {
     width: 337px;
-    height: 81px;
     font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-    margin-top: 33%;
+    margin-top: 25%;
     flex: none;
-    order: 0;
-    flex-grow: 0;
+
   }
 
   .projects3 {
-    width: 369px;
-    height: 435px;
-    margin-left: 49px;
-    right: 0;
-    margin-top: 5%;
-    bottom: 0;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./images/Mask\ Group.png);
+
+    height: auto;
+    background-image: url(./images/Mask\ Group.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .projects3 h1 {
     width: 337px;
-    height: 81px;
-    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    margin-top: 30%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .grid-item4 {
-    width: 369px;
-    height: 435px;
-    margin-left: 20px;
-    right: 0;
-    bottom: 0;
-    margin-top: 5%;
-    background: url(./images/grid\ 2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .grid-item4 h1 {
-    width: 337px;
-    height: 81px;
     font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1286,29 +1255,47 @@ footer {
     flex-grow: 0;
   }
 
+  .grid-item4 {
+
+    height: auto;
+
+    background: url(./images/grid\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .grid-item4 h1 {
+    width: 337px;
+    font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 20%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   .projects4 {
-    width: 369px;
-    height: 435px;
-    margin-top: 5%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: url(/images/Img\ Placeholder\ \(2\) .png);
+
+    height: auto;
+    margin-top: -10%;
+    background: url(/images/Img\ Placeholder\ \(2\).png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .projects4 h1 {
     width: 337px;
-    height: 81px;
     font-family: 'Crete Round' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-    margin-top: 35%;
+    margin-top: 20%;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1331,28 +1318,28 @@ footer {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    margin-top: 8%;
+    margin-top: 1%;
+
   }
 
   .About {
     display: flex;
     flex-direction: row;
-    width: 1440px;
+    width: 100%;
     height: 1100px;
-    left: 0;
     top: 2900px;
   }
 
   .aboutme {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 1440px;
-    height: 1100px;
+    width: 100%;
+    height: auto;
     background: url(./images/illustration-about\ me@2x.png);
     background-position: 100% 10%;
     background-repeat: no-repeat;
-    background-size: 39%;
+    background-size: 30%;
   }
 
   .part1 {
@@ -1388,14 +1375,14 @@ footer {
   }
 
   .aboutme hr {
-    margin-top: -10%;
+    margin-top: 15%;
     border: 1px solid #fff;
   }
 
   .LANGUAGE {
     display: flex;
     flex-direction: row;
-    margin-top: -30%;
+    margin-top: 5%;
     justify-content: space-evenly;
     font-size: 22px;
     font-family: 'Inter' Verdana, Geneva, Tahoma, sans-serif;
@@ -1411,7 +1398,7 @@ footer {
   }
 
   footer {
-    width: 1440px;
+    width: 100%;
     display: flex;
     margin-top: -50%;
     justify-content: space-between;
@@ -1420,6 +1407,9 @@ footer {
   .footer-p {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin-left: 5%;
   }
 
   .form-p p {
@@ -1438,7 +1428,7 @@ footer {
 
   .icons {
     margin-left: 8%;
-    margin-top: 5%;
+    margin-top: 1%;
     order: 2;
     display: flex;
   }
@@ -1473,8 +1463,8 @@ footer {
 
   .actn-bar {
     display: flex;
-    width: 390px;
-    margin-top: 35%;
+    width: 100%;
+    margin-top: 20%;
     justify-content: first baseline;
   }
 
@@ -1483,4 +1473,3 @@ footer {
     color: #0d151e;
   }
 }
-*/
